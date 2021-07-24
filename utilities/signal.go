@@ -20,7 +20,7 @@ func SetupSignalHandler() {
 	go func() {
 		<-c
 
-    // TODO: Replace "Terra" with Session's username
+		// TODO: Replace "Terra" with Session's username
 		log.Println("SignalHandler: Killing Terra")
 
 		os.Exit(1)
